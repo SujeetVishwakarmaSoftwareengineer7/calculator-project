@@ -1,4 +1,4 @@
-# calculator-project
+# Calculator-Project
  Simple C calculator project done in First Semester
 
  Simple Calculator (C)
@@ -14,13 +14,29 @@ Features
 - square
 - Simple menu-based interface
 
-How to run
-1. Open terminal in the project folder.
-2. Compile: `gcc calculator.c -o calc`
-3. Run: `./calc` (Linux/Mac) or `calc.exe` (Windows on terminal)
+## Features
+- Basic arithmetic operations (+, -, *, /)
+- Menu-driven interface
+- Continuous calculations using loop
+- Error handling (division by zero)
 
+ how to run --
+
+1. Navigate to the project folder:
+   cd calculator-c
+
+2. Compile the program:
+   gcc calculator.c -o calculator
+
+3. Run the program:
+   calculator
+   
 ## Why I made this
 This project helped me learn:
 - Basic input/output in C
 - Loops and conditions
 - Functions and modular programming
+
+ Requirements
+- GCC Compiler
+- VS Code (optional)
