@@ -9,10 +9,26 @@ int main(){
 
     int choice;
     while(1){
+    printf("\n\033[31m==============================================================\n");
+    printf("                     PROJECT  CALCULATOR \n");
+    printf("FIRSTPROJECT IN C LANGUAGE\n");
+    printf("\ndeveloper :  Sujeet Vishwakarma\n");
+    printf("   course:      BCA (1st semester\n");
+    printf("language:   C language\n");
+    printf("  college:       maharishi mahesh yogi\n");
+    printf("               ramayana vishwavidyalaya ayodhya\n");
+    printf("==============================================================\n");
+    printf("\n");
+
+
+
+
+
     printf("welcome to simple calculator\n");
-    printf("1.basiccalculator\n");
-    printf("2.advancedcalculator\n");
-    printf("3.close calculator\n");
+
+    printf("\n\033[32m1.Basiccalculator\n");
+    printf("2.Advancedcalculator\n");
+    printf("3.Close calculator\n");
 
     printf("enter your choice\n");
     scanf("%d",&choice);
@@ -31,7 +47,9 @@ int main(){
       return 0;
 
         default:
+        printf(" WARNING ✂️✂️✂️ \n");
         printf("envalid choice\n");
+        printf("please enter correct option \n");
         
     }
 
@@ -43,10 +61,10 @@ void basiccalculator(){
     float a,b;
 
     printf("basic calculator\n");
-    printf("1.addition\n");
-    printf("2.subtraction\n");
-    printf("3.multplication\n");
-    printf("4.division \n");
+    printf("1.Addition\n");
+    printf("2.Subtraction\n");
+    printf("3.Multplication\n");
+    printf("4.Division \n");
 
     printf("enter your choice\n");
     scanf("%d",&ch);
@@ -85,10 +103,10 @@ void advancedcalculator(){
     int ch;
     double x,y;
 
-    printf("advanced calculator\n");
-    printf("1.pow(x^y\n)");
-    printf("2.square root\n");
-    printf("3.modulus\n");
+    printf("Advanced calculator\n");
+    printf("1.Pow(x^y\n");
+    printf("2.Square root\n");
+    
 
     printf("enter your choice\n");
     scanf("%d",&ch);
@@ -107,26 +125,16 @@ void advancedcalculator(){
         if(x>=0)
         printf("result =%.2lf\n",sqrt(x));
         else
-        printf("error: negative number\n");
+        printf("error ✂️: negative number\n");
 break;
 
-       case 3:{
-        int a,b;
-        printf("enter two integer:");
-        scanf("%d %d ",&a,&b);
-
-        if(b!=0)
-        printf("result =%.2lf\n",a%b);
-        else
-        printf("error: modulus by zero\n");
-        break;
-
-       }
-
+ 
        default:
+       printf(" WARNING ✂️✂️✂️\n");
        printf("envalid choice\n");
        printf("don smart with me\n");
        printf("enter correct option\n");   
 
     }
 }
+
